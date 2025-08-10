@@ -1,0 +1,5 @@
+rodar servidor
+    uvicorn store.main:app --reload
+
+pre-commit
+    poetry run prec-commit install
