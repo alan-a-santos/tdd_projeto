@@ -2,4 +2,4 @@ rodar servidor
     uvicorn store.main:app --reload
 
 pre-commit
-    poetry run prec-commit install
+    poetry run pre-commit install
